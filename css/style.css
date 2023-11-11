@@ -465,8 +465,6 @@ margin-top: 30px;
     border-radius: 4px;
     height: 70%;
 }
-
-/* fim estilo contato */
 /* início estilo market place */
 .market-place{
     height: 180px;
@@ -485,3 +483,58 @@ margin-top: 30px;
     width: 100%;
 }
 /* fim estilo market place */
+
+/* fim estilo contato */
+
+/* início estilo produtos */
+.col-lg-4 .card {
+    border-style: none;
+    border: 0px;
+    min-height: 300px;
+}
+.text-center .mb-5 {
+    margin-top: 20px;
+}
+.card img {
+    /* height: auto; */
+    width: auto;
+    height: 300px   ;
+}
+.card .bg-image {
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+.card .bg-image img {
+    height: 300px;
+}
+.mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+}
+.hover-overlay .mask {
+    opacity: 0;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.hover-overlay .mask:hover {
+    opacity: 1;
+}
+.card-body .btn {
+    background-color: #ababab;
+    color: white;
+    font-weight: 400;
+    border: none;
+    outline: 0px solid transparent;
+}
+
+/* fim estilo produtos */
